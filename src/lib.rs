@@ -10,7 +10,7 @@
 //! ## Example Usage
 //! ```no_run
 //! use std::path::Path;
-//! use docx_to_pdf_converter::docx_to_pdf;
+//! use ditto::docx_to_pdf;
 //!
 //! let input = Path::new("/path/to/input.docx");
 //! let output = Path::new("/path/to/output.pdf");
@@ -47,7 +47,7 @@ use std::process::Command;
 /// # Example
 /// ```no_run
 /// use std::path::Path;
-/// use docx_to_pdf_converter::docx_to_pdf;
+/// use ditto::docx_to_pdf;
 ///
 /// let input = Path::new("example.docx");
 /// let output = Path::new("example.pdf");
